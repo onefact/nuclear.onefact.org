@@ -8,3 +8,7 @@ Shared Base ID/URL
 
 Share-->Share publicy-->Turn on full base access
 -->copy url
+
+In Noco.
+Click on three dots next to add new table and choose "Airtable"
+Copy airtable API key and shared base ID when prompted
