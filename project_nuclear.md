@@ -11,9 +11,12 @@ flyctl volumes create nocodb_vol
 STEP 3: Edit fly.toml file to update the mounts to use created volume
 
 [mounts]
+
     source="nocodb_vol"
     destination="/usr/app/data"
+    
 [build]
+
   image = "nocodb/nocodb:latest"
 
     
