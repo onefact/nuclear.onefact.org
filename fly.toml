@@ -1,6 +1,6 @@
-# fly.toml file generated for onefact on 2022-07-27T12:51:22-04:00
+# fly.toml file generated for connect-onefact on 2022-10-25T17:19:50-04:00
 
-app = "onefact"
+app = "connect-onefact"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -13,10 +13,6 @@ processes = []
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
-
-[mounts]
-  destination = "/data"
-  source = "nocodb_vol"
 
 [[services]]
   http_checks = []
