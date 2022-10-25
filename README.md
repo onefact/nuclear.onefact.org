@@ -25,4 +25,10 @@ flyctl open
 
 5. Create a login for nocodb
 
+## For custom domain
+
+https://fly.io/blog/how-to-custom-domains-with-fly/
+
+Need to add A and AAA records and issue certificate through `flyctl`.
+
     
